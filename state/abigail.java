@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class abigail {
     public static void main(String[]args) throws IOException {
-        Scanner in = new Scanner(new File("C:/Users/rshul/OneDrive/Code/JavaProjects/state/abigail.txt"));
+        Scanner in = new Scanner(new File("abigail.txt"));
         while (in.hasNextLine()){
             int a = in.nextInt();
             String b = String.valueOf(in.nextInt());
